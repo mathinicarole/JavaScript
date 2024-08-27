@@ -59,6 +59,8 @@ ScrollReveal().reveal('.home-content p, .about-content',{ origin:'right'}) ;
 // });
 
 
+                    
+     
 // header sticky
 window.addEventListener("scroll", function(){
   var header= document.querySelector("header");

@@ -45,8 +45,8 @@ section {
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 .logo {
-  font-size: 2.5rem;
-  color: var(--text-color);
+  font-size: 3.5rem;
+  color: var(--main-color);
   font-weight: 600;
   cursor: default;
 }
@@ -70,6 +70,23 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h3.hello{
+  font-size: 28px;
+  margin: 15px 0;
+}
+h3.hello span{
+  font-family: 'Clicker Script' , cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--main-color);
+}
+h3.my-profession{
+  font-size: 30px;
+  margin: 15px 0;
+}
+.typing{
+  color: var(--main-color);
 }
 .home-img {
   width: 25vw;
@@ -95,8 +112,8 @@ section {
 }
 .home-content h3:nth-of-type(2) {
   margin-bottom: 2rem;
-}
-span {
+} 
+ span {
   color: var(--main-color);
 }
 .home-content h1 {
@@ -106,6 +123,7 @@ span {
 }
 .home-content p {
   font-size: 1.6rem;
+
 }
 .social-media a {
   display: inline-flex;
