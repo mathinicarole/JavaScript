@@ -57,44 +57,43 @@ ScrollReveal().reveal('.home-content p, .about-content',{ origin:'right'}) ;
 //   backDelay:1000,
 //   loop: true
 // });
+const roles = ["Software Developer", "Product Manager", "Community Builder", "Climate Advocate"];
+let i = 0;
+
+function changeRole() {
+  document.getElementById("role").textContent = roles[i];
+  i = (i + 1) % roles.length; // Loop back to start
+}
+
+// Change every 2 seconds
+setInterval(changeRole, 2000);
+
+// Run immediately when page loads
+changeRole();
 
 
+ // Typed.js roles
+ var typed = new Typed("#role", {
+  strings: ["Software Developer", "Product Manager", "Community Builder", "AI Enthusiast"],
+  typeSpeed: 80,
+  backSpeed: 50,
+  loop: true
+});
+
+// Dark mode toggle
+const toggle = document.getElementById("theme-toggle");
+toggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
+
+// ScrollReveal
+ScrollReveal().reveal('.home-content, .heading', {
+  delay: 200,
+  distance: '50px',
+  origin: 'bottom',
+  duration: 800,
+  reset: true
+});
                     
      
-// header sticky
-window.addEventListener("scroll", function(){
-  var header= document.querySelector("header");
-  header.classList.toggle("sticky" , window.scrollY >0);
-})
-// common reveal options to create reveal animations
-ScrollReveal({
-  // reset: true,
-  distance: "60px",
-  duration: 2500,
-  delay: 400,
-});
 
-// traget elements, and specify options to create reveal animations
-ScrollReveal().reveal(".main-title, .second-title, .info-title", {
-  delay: 500,
-  origin: "left",
-});
-ScrollReveal().reveal(".sec-01 .image,.sec-04 .image, .info", {
-  delay: 600,
-  origin: "bottom",
-});
-ScrollReveal().reveal(".text-box", { delay: 700, origin: "right" });
-ScrollReveal().reveal(".media-icons i", {
-  delay: 500,
-  origin: "bottom",
-  interval: 200,
-});
-ScrollReveal().reveal(".sec-02 .image, .sec-03 .image", {
-  delay: 500,
-  origin: "top",
-});
-ScrollReveal().reveal(".media-info li", {
-  delay: 500,
-  origin: "left",
-  interval: 200,
-});

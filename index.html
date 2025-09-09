@@ -19,21 +19,28 @@
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
   <body>
+     <!-- Theme Toggle -->
+
     <!-- header design -->
 
-    <header class="header">
-      <a href="#" class="logo"> My Life</a>
+    <header class="header" id="top">
+
+      <a href="#" class="logo"> My Career</a>
 
       <i class="bx bx-menu" id="menu-icon"></i>
 
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#awards">Awards</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#honors">Awards</a>
+        <a href="#mentorship">Mentorship</a>
         <a href="#contact">Contact</a>
       </nav>
+      <button id="theme-toggle">🌙</button>
+
     </header>
 
     <!-- home section design-->
@@ -43,15 +50,15 @@
         <h1>Caroline <span>(Raquel)</span> Mathini</h1>
         <h3 class="my-profession">
           And I'm a
-          <span class="typing">Frontend Developer</span>
+          <span class="typing" id="role">software Developer</span>
         </h3>
         <p>
           I am a Bachelor's degree student pursuing Bachelor of Business
           Information Technology, with a strong interest in front-end web
           development and artificial intelligence/machine learning. Currently,
           I'm skilled in creating responsive web-designed websites using HTML,
-          CSS, JavaScript, and have used while learning frameworks like
-          React,Node, Python. I am eager to learn and grow my expertise. My goal
+          CSS, JavaScript, and continuously learning frameworks like
+          Reactjs, Laravel and Springboot. I am eager to learn and grow my expertise. My goal
           is to develop projects aligned with the Sustainable Development Goals
           (SDG's) and integrate AI and machine learning to provide innovative
           solutions that can positively impact lives and communities.
@@ -69,6 +76,8 @@
           <a href="https://twitter.com/mathinicarole"
             ><i class="bx bxl-twitter"></i
           ></a>
+          <a href="/images/updated Resume.pdf" download class="btn"> CV</a>
+
         </div>
         <!-- <button class="btn" id="download_Btn">Download CV</button> -->
       </div>
@@ -113,8 +122,8 @@
         <h2 class="heading">My <span>Progress</span></h2>
 
         <p>
-          In the three years I have been coding, whether it's consistently or
-          not, my interests have spanned software development, AI/ML, and
+          In the two years I have been coding, whether it's consistently or
+          not, my interests have spanned software development,Product management, AI/ML, and
           cryptocurrency. These fields, while distinct, offer exciting
           opportunities for integration. I am particularly intrigued by how
           AI/ML can be harnessed within software applications to create
@@ -174,7 +183,7 @@
 
         <div class="services-box">
           <i class="bx bxs-paint"></i>
-          <h3>Graphic design</h3>
+          <h3>Product Development</h3>
           <p>
             I am learning graphic design to enhance my creativity, mastering
             visual communication, typography, and design tools for impactful
@@ -185,7 +194,7 @@
 
         <div class="services-box">
           <i class="bx bx-bar-chart-alt"></i>
-          <h3>Digital marketing</h3>
+          <h3>Bitcoin development</h3>
           <p>
             I'm currently learning digital marketing, focusing on SEO, social
             media strategies, content creation, and analytics to enhance online
@@ -276,14 +285,86 @@
         </div>
       </div>
     </section>
+    <section class="experience" id="experience">
+      <h2 class="heading">My <span>Experiences</span></h2>
 
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Saboja company</h3>
+          <p>
+            I am currently working on my Front-end career path. Skills: React,
+            Python , Javascript, Bootstrap, Material UI, mySQL, Responsive
+            design.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Power Learn Project</h3>
+          <p>
+            I am learning graphic design to enhance my creativity, mastering
+            visual communication, typography, and design tools for impactful
+            digital projects.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Learnsoft Beliotech Solutions</h3>
+          <p>
+            I'm currently learning digital marketing, focusing on SEO, social
+            media strategies, content creation, and analytics to enhance online
+            engagement.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Hekopay Limited</h3>
+          <p>
+            I am currently working on my Front-end career path. Skills: React,
+            Python , Javascript, Bootstrap, Material UI, mySQL, Responsive
+            design.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Niva Africa</h3>
+          <p>
+            I am learning graphic design to enhance my creativity, mastering
+            visual communication, typography, and design tools for impactful
+            digital projects.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Space Ya Tech</h3>
+          <p>
+            I'm currently learning digital marketing, focusing on SEO, social
+            media strategies, content creation, and analytics to enhance online
+            engagement.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
     <!--  awards section design-->
     <section class="awards" id="honors">
-      <h2 class="heading">Microsoft <span>GOL SN4</span></h2>
+      <h2 class="heading">Microsoft GOL <span> SN4</span></h2>
 
       <div class="award-content">
-        <h2 class="heading">My <span>Achievements</span></h2>
-        <h3>WINNERS</h3>
+        <h2 class="heading">Honors <span>& Awards</span></h2>
+        <h3>HACKATHON WINNER </h3>
+        <h4>Software Development</h4>
         <p>
           I participated in the Microsoft hackathon, Game of Learners (GOL)
           Season 4, where I collaborated with fellow developers to create
@@ -311,37 +392,50 @@
       </div>
     </section>
     <section class="awards" id="honors">
-      <div class="award-img">
-        <img src="/images/WINS.JPG" alt="" />
-        <img src="/images/ADC.JPG" alt="" />
-      </div>
+      <h2 class="heading">Technical Univeristy <span>of Munich</span></h2>
 
       <div class="award-content">
-        <h2 class="heading">Career <span>Mentorship</span></h2>
-        <h3>Global Mentorship Initiative</h3>
+        
+        <h2 class="heading"><span> </span></h2>
+        <h3>DIGITAL PRODUCT SCHOOL</h3>
+        <h4>Product Development</h4>
         <p>
-          In March, Microsoft launched the ADC WINS program through the
-          Microsoft Africa Development Centre in Kenya, focusing on empowering
-          women in STEM at local universities. The program offers mentorship
-          through the Global Mentorship Initiative, helping bridge the gap
-          between graduation and early career phases for underrepresented young
-          professionals. I was matched with Joana Santos, a Data Science Lead at
-          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
-          This journey has been transformative, enhancing my job preparation
-          skills, boosting my confidence, and connecting me with inspiring women
-          who motivate me to pursue my goals and dreams.
+          My journey with Bitcoin began in 2022, sparked by my passion for
+          software development. As I explored the tech world, I became
+          increasingly drawn to Bitcoin development but faced challenges like a
+          lack of support and community in this niche. Discovering the Bitcoin
+          DADA program was a turning point, as it empowered me through
+          comprehensive Bitcoin education, particularly focused on women. This
+          experience deepened my commitment, leading me to join Bitcoin School
+          Kenya, where I serve as an executive and aspire to become a tutor. My
+          passion for being a female developer drives me to actively participate
+          in women’s communities, contributing to and learning from this space.
+          Over the three years I’ve been coding, I’ve explored software
+          development, AI/ML, and cryptocurrency. These fields offer exciting
+          opportunities for integration, such as using AI/ML in software
+          applications and enhancing blockchain analytics and trading algorithms
+          in cryptocurrency. This interdisciplinary approach fuels my ambition
+          to build innovative projects that push the boundaries of technology.
         </p>
-        <a href="#" class="btn">Read More</a>
-        <!-- put the Microsoft#link -->
+        <a
+          href="https://medium.com/@mathinicarole/my-journey-into-tech-5db553946966"
+          class="btn"
+          >Read More</a
+        >
       </div>
-      <h2 class="heading">Microsoft<span> ADC WINS</span></h2>
+      <div class="award-img">
+        <img src="/images/digital.png" alt="" />
+        <img src="/images/munich.png" alt="" />
+        <img src="/images/product.png" alt="" />
+      </div>
     </section>
     <section class="awards" id="honors">
       <h2 class="heading">Bitcoin <span>DADA Cohort 7</span></h2>
 
       <div class="award-content">
-        <h2 class="heading">Bitcoin<span> Education</span></h2>
-        <h3>Graduation</h3>
+       
+        <h3>BITCOIN EDUCATION</h3>
+        <h4>Bitcoin adoption </h4>
         <p>
           My journey with Bitcoin began in 2022, sparked by my passion for
           software development. As I explored the tech world, I became
@@ -371,11 +465,189 @@
         <img src="/images/CERT (3).JPG" alt="" />
       </div>
     </section>
+    <section class="mentorship" id="mentorship">
+
+      <h2 class="heading">Career <span>Mentorship</span></h2>
+      <div class="award-content">
+        <div class="award-img">
+        <img src="/images/WINS.JPG" alt="" />
+        <img src="/images/ADC.JPG" alt="" />
+      </div> 
+    
+        
+        <h2 class="heading">Microsoft <span> ADC WINS</span></h2>
+        <h3>Global Mentorship Initiative</h3>
+        <p>
+          In March, Microsoft launched the ADC WINS program through the
+          Microsoft Africa Development Centre in Kenya, focusing on empowering
+          women in STEM at local universities. The program offers mentorship
+          through the Global Mentorship Initiative, helping bridge the gap
+          between graduation and early career phases for underrepresented young
+          professionals. I was matched with Joana Santos, a Data Science Lead at
+          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
+          This journey has been transformative, enhancing my job preparation
+          skills, boosting my confidence, and connecting me with inspiring women
+          who motivate me to pursue my goals and dreams.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        <!-- put the Microsoft#link -->
+      </div>
+     
+    </section>
+          <!-- In March, Microsoft launched the ADC WINS program through the
+          Microsoft Africa Development Centre in Kenya, focusing on empowering
+          women in STEM at local universities. The program offers mentorship
+          through the Global Mentorship Initiative, helping bridge the gap
+          between graduation and early career phases for underrepresented young
+          professionals. I was matched with Joana Santos, a Data Science Lead at
+          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
+          This journey has been transformative, enhancing my job preparation
+          skills, boosting my confidence, and connecting me with inspiring women
+          who motivate me to pursue my goals and dreams. -->
+        
+    <section class="awards" id="awards">
+
+      <div class="award-img">
+        <img src="/images/aspirelogo.png" alt="" />
+        <img src="/images/aspirecomplete.png" alt="" />
+      </div>
+
+      <div class="award-content">
+        <!-- <h2 class="heading">Career <span>Mentorship</span></h2> -->
+        <h3>Aspire Institute through Harvard Business School</h3>
+        <p>
+          In March, Microsoft launched the ADC WINS program through the
+          Microsoft Africa Development Centre in Kenya, focusing on empowering
+          women in STEM at local universities. The program offers mentorship
+          through the Global Mentorship Initiative, helping bridge the gap
+          between graduation and early career phases for underrepresented young
+          professionals. I was matched with Joana Santos, a Data Science Lead at
+          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
+          This journey has been transformative, enhancing my job preparation
+          skills, boosting my confidence, and connecting me with inspiring women
+          who motivate me to pursue my goals and dreams.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        <!-- put the Microsoft#link -->
+      </div>
+      <h2 class="heading">Aspire <span> Leaders Program</span></h2>
+    </section>
+    <section class="awards" id="honors">
+      <div class="award-img">
+        <img src="/images/bridge.png" alt="" />
+        <img src="/images/bridgecert.png" alt="" />
+      </div>
+
+      <div class="award-content">
+        <!-- <h2 class="heading">Career <span>Mentorship</span></h2> -->
+        <h3>Impact Africa Network</h3>
+        <p>
+          In March, Microsoft launched the ADC WINS program through the
+          Microsoft Africa Development Centre in Kenya, focusing on empowering
+          women in STEM at local universities. The program offers mentorship
+          through the Global Mentorship Initiative, helping bridge the gap
+          between graduation and early career phases for underrepresented young
+          professionals. I was matched with Joana Santos, a Data Science Lead at
+          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
+          This journey has been transformative, enhancing my job preparation
+          skills, boosting my confidence, and connecting me with inspiring women
+          who motivate me to pursue my goals and dreams.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        <!-- put the Microsoft#link -->
+      </div>
+      <h2 class="heading">The Bridge<span> Program</span></h2>
+    </section>
+    <section class="awards" id="honors">
+      <div class="award-img">
+        <img src="/images/bridge.png" alt="" />
+        <img src="/images/bridgecert.png" alt="" />
+      </div>
+
+      <div class="award-content">
+        <!-- <h2 class="heading">Career <span>Mentorship</span></h2> -->
+        <h3>The Amazon Leadership Initiative</h3>
+        <p>
+          In March, Microsoft launched the ADC WINS program through the
+          Microsoft Africa Development Centre in Kenya, focusing on empowering
+          women in STEM at local universities. The program offers mentorship
+          through the Global Mentorship Initiative, helping bridge the gap
+          between graduation and early career phases for underrepresented young
+          professionals. I was matched with Joana Santos, a Data Science Lead at
+          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
+          This journey has been transformative, enhancing my job preparation
+          skills, boosting my confidence, and connecting me with inspiring women
+          who motivate me to pursue my goals and dreams.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        <!-- put the Microsoft#link -->
+      </div>
+      <h2 class="heading">Women<span> leadership</span></h2>
+    </section>
+   
+   
+     <section class="awards" id="honors">
+      <div class="award-img">
+        <img src="/images/WINS.JPG" alt="" />
+        <img src="/images/ADC.JPG" alt="" />
+      </div> 
+      <div class="award-content">
+      
+        <h3> ProductNBO</h3>
+        <p>
+          In March, Microsoft launched the ADC WINS program through the
+          Microsoft Africa Development Centre in Kenya, focusing on empowering
+          women in STEM at local universities. The program offers mentorship
+          through the Global Mentorship Initiative, helping bridge the gap
+          between graduation and early career phases for underrepresented young
+          professionals. I was matched with Joana Santos, a Data Science Lead at
+          Microsoft, on June 3rd, 2024, and began my mentorship shortly after.
+          This journey has been transformative, enhancing my job preparation
+          skills, boosting my confidence, and connecting me with inspiring women
+          who motivate me to pursue my goals and dreams.
+        </p>
+        <a href="#" class="btn">Read More</a>
+        <!-- put the Microsoft#link -->
+      </div>
+      <h2 class="heading">Product<span> Management</span></h2>
+    </section> 
+    <!-- <section class="awards" id="honors">
+      <h2 class="heading">Microsoft <span>GOL SN4</span></h2>
+
+      <div class="award-content">
+        <h2 class="heading">My <span>Achievements</span></h2>
+        <h3>The Amazon leadership Initiative</h3>
+        <p>
+          I participated in the Microsoft hackathon, Game of Learners (GOL)
+          Season 4, where I collaborated with fellow developers to create
+          innovative technological solutions for health challenges in Africa.
+          Our team developed JAMBOCARE, a web application that facilitates
+          real-time communication between patients and medical professionals,
+          overcoming language barriers. This experience has been transformative
+          for me, as I've witnessed significant growth in my skills and
+          perspective. Through GOL, I've deepened my knowledge of the tech
+          industry, joined vibrant communities, become a speaker at several
+          events, and actively engaged in organizing tech events and learning
+          sessions. Moreover, this journey has enhanced my ability to
+          collaborate, build relationships, and expand my network within the
+          tech community.
+        </p>
+        <a
+          href="https://medium.com/@mathinicarole/my-journey-into-tech-5db553946966"
+          class="btn"
+          >Read More</a
+        >
+      </div>
+      <div class="award-img">
+        <img src="/images/microsoft.jpeg" alt="" />
+        <img src="/images/gol.jpg" alt="" />
+      </div>
+    </section>
 
     <!-- contact section design -->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span> Me!</span></h2>
-      <form action="#">
+      <form action="https://formspree.io/f/yourformid" method="POST">
         <div class="input-box">
           <input type="text" placeholder="Full name" />
           <input type="email" placeholder="Email address" />
@@ -393,15 +665,15 @@
         ></textarea>
         <input type="submit" value="Send Message" class="btn" />
       </form>
-    </section>
+    </section> -->
 
     <!-- footer design -->
     <footer class="footer">
       <div class="footer-text">
-        <p>Copyright &copy; 2024 by Raquelcarole / All Rights Reserved.</p>
+        <p>Copyright &copy; 2025 by Raquelcarole / All Rights Reserved.</p>
       </div>
       <div class="footer-iconTop">
-        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        <a href="#top"><i class="bx bx-up-arrow-alt"></i></a>
       </div>
     </footer>
 
